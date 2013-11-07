@@ -1,10 +1,6 @@
-// JavaScript
+// Example Expressions - Age
 
-var yearBorn = 1955;
+var yearBorn = 1988;
+var age = 2013 - yearBorn;
 
-/*
-console.log("Hello World");
-console.log(yearBorn);
-*/
-
-alert(yearBorn);
+console.log(age);
