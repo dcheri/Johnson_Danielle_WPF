@@ -1,10 +1,3 @@
-// JavaScript
+// Danielle Johnson | November 7, 2013 | Expressions_Personal
 
-var yearBorn = 1955;
-
-/*
-console.log("Hello World");
-console.log(yearBorn);
-*/
-
-alert(yearBorn);
+var
