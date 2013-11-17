@@ -5,8 +5,14 @@ var yourNaughty = prompt("On a scale of 1-10 \(10 being the worst\) how naughty 
 var yourNice = prompt("On a scale of 1-10 \(1 being an angel\) how nice were you this year?"); //Asks the user how nice they've been
 var theResult = (Number(yourNaughty) + Number(yourNice))/2; //Calculates your naughty to nice score
 
+if(christmasSpirit === "yes"){
+	var secondChance = ((Number(yourNaughty) + Number(yourNice))/2) - 1;
+}
+
 if(theResult < 5){
-	console.log("Congratulations, you're on the nice list!");
+	console.log("Congratulations, you\'re on the nice list!");
+}else if(secondChance < 5){
+	console.log("Your Christmas Spirit saved you! You\'re on the nice list!");
 }else{
-	console.log("So Sorry, you're on the naughty list!");
+	console.log("So Sorry, you\'re on the naughty list!");
 }
