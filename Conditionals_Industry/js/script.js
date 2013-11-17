@@ -7,4 +7,4 @@ if( signUp === "" || newVisitor === ""){
 	alert("You forgot to enter something!");
 }
 
-(signUp === "yes" && newVisitor === "yes") ? console.log("Awesome! Thanks for being loyal and signing up!") : console.log("Hmm, you should stop by more often."")
+(signUp === "yes" && newVisitor === "yes") ? console.log("Awesome! Thanks for being loyal and signing up!") : console.log("Hmm, you should stop by more often.");
