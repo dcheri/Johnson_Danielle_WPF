@@ -9,3 +9,7 @@ var dogFoodCost = foodCalculator (prompt("Is this a leap year? \(Please answer t
 	}
 
 console.log("The cost to feed your dog for a year is $" + Number(dogFoodCost) + "."); //Prints the result to the console
+
+console.log("-------- Calling Test --------"); //Separation
+
+console.log("The cost to feed your dog for a year is $" + foodCalculator("true", 4, 0.66) + "."); //Calling the function to test if it works
